@@ -10,7 +10,7 @@ LICENCE     : GNU GPL
 
 /*                                 DESCRIPTION:
 This is the design of a work-conserving Round Robin Arbiter, with four (4) request queues.
-Since this is an FPGA based project, the time-quanta(or time slice) has been chosen
+Since this is an FPGA(DE10-Lite board) based project, the time-quanta(or time slice) has been chosen
 such that the human eye can observe the changes in the output lines(LED).
 For this design 3 seconds was chosen. However, the time slice can easily
 be adjusted by changing the value of the "THREE_SECS_FREQ" variable in the code.
